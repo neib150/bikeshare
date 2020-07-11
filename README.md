@@ -22,6 +22,8 @@ Files used where:
 - washington.csv
 - new_york_city.csv
 
+Project coantains contain main python file 'statistics.py', with html and css files for the webapp plugin
+
 ### SOFTWARE REQUIREMENTS
 - Python 3 (Python 3.8 interpreter was used)
 - Libraries needed: pandas, numpy, calendar, os, sys, time, Flask
