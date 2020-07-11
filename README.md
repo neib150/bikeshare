@@ -16,6 +16,7 @@ The project was created as part of the Udacity course [Programming for Data Scie
 ### FILES USED
 Data files were supplied by Udacity to complete this project. They are not included in this respositry due to file size.
 Udacity should add the data files to directory **'/bikeshare/data/'** before trying to run the project
+
 Files used where:
 - chicago.csv
 - washington.csv
