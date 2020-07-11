@@ -1,4 +1,9 @@
+### DATE CREATED
+11 July 2020
+
 # US BIKESHARE STATISTICS
+
+### DESCRIPTION
 
 This is simply python package that use bike sharing data for 3 major cities in the United States for Chicago, New York
  City and Washington. The package display descriptive statistics about common times of travel, popular stations, trip duration and user information. 
@@ -7,6 +12,14 @@ Users are presented with an interactive experience to select a city, month and d
 
 The project was created as part of the Udacity course [Programming for Data Science with Python Nanodegree Program
 ](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
+
+### FILES USED
+Data files were supplied by Udacity to complete this project. They are not included in this respositry due to file size.
+Udacity should add the data files to directory **'/bikeshare/data/'** before trying to run the project
+Files used where:
+- chicago.csv
+- washington.csv
+- new_york_city.csv
 
 ### REQUIREMENTS
 - Python 3 (Python 3.8 interpreter was used)
@@ -55,7 +68,7 @@ The output displayed are the same as in console, the print statements was instea
    - Counts each gender
    - Youngest and oldest cyclists, most common and average age, and the standard deviation after removing outliers of older cyclist.
    
-### Resources used:
+### CREDITS / RESOURCES USED:
 1) Udacity extracurricular - Introduction to HTML and CSS
 2) HTML element reference - https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 3) CSS: https://css-tricks.com/almanac/
