@@ -22,10 +22,10 @@ Files used where:
 - washington.csv
 - new_york_city.csv
 
-### REQUIREMENTS
+### SOFTWARE REQUIREMENTS
 - Python 3 (Python 3.8 interpreter was used)
 - Libraries needed: pandas, numpy, calendar, os, sys, time, Flask
-- Data files are expected within the directory bikeshare/bikeshare/data/
+- Data files supplied by Udacity should be copied into directory bikeshare/bikeshare/data/
 
 ### INSTALLATION
 unzip the file (package will be published to github in the next step of the project)
