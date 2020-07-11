@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block home %}
+
+	<form action='/input' method='post' class="start">
+		<button name='start'
+		        class='start_button'
+		        type='submit'>
+			Start Analysis
+		</button>
+
+		<div>
+			<br>
+			<img alt='bikeshare image' src='../static/image/divvy.jpg' class='bike_image'/>
+		</div>
+	</form>
+
+{% endblock %}

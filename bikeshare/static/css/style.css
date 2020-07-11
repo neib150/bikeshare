@@ -1,0 +1,97 @@
+
+h1, h3 {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+/*home page formatting, make picture 90% of screen to handle all screen sizes and centre everything*/
+form.start {
+    margin: 0 auto;
+    padding: 2em 1em;
+    width: 90%;
+    height: 80%;
+}
+
+button.start_button {
+    margin: 0 auto;
+    display: block;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: sandybrown;
+}
+
+img {
+    /* Center the image on the page dynamically to screen size*/
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    height: 60%;
+    vertical-align:middle;
+    image-rendering: high-quality;
+}
+
+form.input {
+    /* Center the form on the page dynamically to screen size*/
+    margin: auto;
+    margin-top: 3em;
+    width: 800px;
+    padding: 2em 2em;
+}
+
+legend {
+    text-align: center;
+    font-size: 14px;
+}
+
+fieldset {
+    font-size: 14px;
+}
+
+
+input {
+    text-align: left;
+    margin: .4em;
+}
+
+label {
+     /*Uniform size & alignment */
+    display: inline-block;
+    text-align: left;
+}
+
+.results_button {
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 300px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.errormessage {
+    color: #ff0000;
+    margin-left: 200px;
+}
+
+pre {
+    background-color: ghostwhite;
+    /* Center the form on the page */
+    margin: 0 auto;
+    min-width: 900px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
