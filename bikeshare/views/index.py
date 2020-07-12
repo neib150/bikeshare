@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from bikeshare.statistics import CITY_DATA, MONTH_NAMES_ABBR, DAY_NAMES_ABBR, webapp
+from bikeshare.statistics import CITY_DATA, MONTH_NAMES_ABBR, DAY_NAMES_ABBR, webapp_main
 
 bp = Blueprint(name=__name__, import_name=__name__, template_folder='templates')
 
@@ -43,7 +43,7 @@ def get_input():
                 # No errors were found, if button was pressed, run statistics, read output file and print it's content
                 if request.form.get("results") == "results_button":
                     try:
-                        output_filename = webapp(city_input, month_input, day_input)
+                        output_filename = webapp_main(city_input, month_input, day_input)
                     except Exception:
                         error_message = "Error occurred: Not possible to run statistics"
                     if output_filename:

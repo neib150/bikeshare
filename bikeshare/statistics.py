@@ -330,7 +330,7 @@ def main(city, month, day_name):
         return input_filename
 
 
-def webapp(city, month, day_name):
+def webapp_main(city, month, day_name):
     """
     Entry point from web application to statistical calculations
 
