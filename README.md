@@ -5,8 +5,8 @@
 
 ### DESCRIPTION
 
-This is simply python package that use bike sharing data for 3 major cities in the United States for Chicago, New York
- City and Washington. The package display descriptive statistics about common times of travel, popular stations, trip duration and user information. 
+This is simply python package that use bike sharing data for 3 major cities in the United States for Chicago, New York City and Washington. 
+The package display descriptive statistics about common times of travel, popular stations, trip duration and user information. 
 Users are presented with an interactive experience to select a city, month and day of week after which statistics are
  displayed in either console or webapp.
 
@@ -14,8 +14,9 @@ The project was created as part of the Udacity course [Programming for Data Scie
 ](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
 
 ### FILES USED
-Data files were supplied by Udacity to complete this project. They are not included in this respositry due to file size.
-Udacity should add the data files to directory **'/bikeshare/data/'** before trying to run the project
+Data files were supplied by Udacity to complete this project, which were obtained from [Motivate](https://www.motivateco.com), a bike share system provider.
+Data files used are not included in this respositry due to file size.
+Udacity should add the data files to directory **'/bikeshare/data/'** before trying to run and rate the project
 
 Files used where:
 - chicago.csv
