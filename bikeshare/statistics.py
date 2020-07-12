@@ -86,16 +86,7 @@ def load_data(filename, city, month, day_name):
 
     print('\nLoading file {} .........\n'.format(filename))
 
-    # normalize column names and types across data sets
-    column_names = ('recno', 'start_time', 'end_time', 'trip_duration', 'start_station', 'end_station',
-                    'user_type', 'gender', 'birth_year')
-    column_types = {'recno': 'int64',
-                    'trip_duration': 'int64',
-                    'start_station' : 'string',
-                    'end_station': 'string',
-                    'user_type': 'string',
-                    'gender': 'string',
-                    'birth_year': 'float64'}
+    column_names, column_types = build_schema()
     delimiter = ','
 
     try:
@@ -132,6 +123,20 @@ def load_data(filename, city, month, day_name):
         df = df[df["weekday"] == day_name]
 
     return df, month, day_name
+
+
+def build_schema():
+    """Build common schema and field names to be used for all input files"""
+    column_names = ('recno', 'start_time', 'end_time', 'trip_duration', 'start_station', 'end_station',
+                    'user_type', 'gender', 'birth_year')
+    column_types = {'recno': 'int64',
+                    'trip_duration': 'int64',
+                    'start_station': 'string',
+                    'end_station': 'string',
+                    'user_type': 'string',
+                    'gender': 'string',
+                    'birth_year': 'float64'}
+    return column_names, column_types
 
 
 def time_stats(df, month, day_name):
@@ -330,7 +335,7 @@ def main(city, month, day_name):
         return input_filename
 
 
-def webapp(city, month, day_name):
+def webapp_main(city, month, day_name):
     """
     Entry point from web application to statistical calculations
 
